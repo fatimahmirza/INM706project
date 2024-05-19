@@ -37,11 +37,11 @@ and in the file " train_bert" for bert.
 -num_epochs = cnn1d_config['num_epochs']
 -batch_size = cnn1d_config['batch_size']
 -learning_rate = cnn1d_config['lr']
-## Checkpoints 
+# Checkpoints 
 - Save model after training
--torch.save(model.state_dict(), "models/1d_cnn.pth")
--wandb.save()
-## Results
+- torch.save(model.state_dict(), "models/1d_cnn.pth")
+- wandb.save()
+# Results
 -The baseline 1D CNN model achieved training accuracy of around 45%, and testing accuracy of around 40%.
 -In contrast, the BERT model achieved a high training accuracy of 88% and maintaining a testing accuracy of 79%, nearly 39% higher on test set of data.
 
