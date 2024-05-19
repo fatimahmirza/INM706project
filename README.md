@@ -31,7 +31,6 @@ and in the file " train_bert" for bert.
 ### Train models
 - To train 1D CNN model put your path directories in the file where "text_data/train.csv" 
 - To train BERT model put your path directories in the file where "text_data/train.csv"
-## Hyperperameters
 # Hyperparameters
 -vocab_size = len(top_words)
 -embedding_dim = cnn1d_config['embedding_dim']
@@ -42,9 +41,9 @@ and in the file " train_bert" for bert.
 -batch_size = cnn1d_config['batch_size']
 -learning_rate = cnn1d_config['lr']
 ## Checkpoints 
--# Save model after training
+- Save model after training
 -torch.save(model.state_dict(), "models/1d_cnn.pth")
-wandb.save()
+-wandb.save()
 ## Results
 -The baseline 1D CNN model achieved training accuracy of around 45%, and testing accuracy of around 40%.
 -In contrast, the BERT model achieved a high training accuracy of 88% and maintaining a testing accuracy of 79%, nearly 39% higher on test set of data.
