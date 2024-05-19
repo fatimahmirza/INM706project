@@ -19,9 +19,7 @@ Set up the configuration file first. You need to put your API key in the file if
 - BATCH_SIZE = int(config['models_config']['batch_size'])
 - WEIGHT_DECAY = int(config['models_config']['weight_decay'])
 - EPOCHS = int(config['models_config']['epochs'])
-- - API_KEY = str(config['models_config']['API_KEY'])
-- CHECKPOINT_MODEL = float(config['models_config']['checkpoint_mAP'])
-
+- API_KEY = str(config['models_config']['API_KEY'])
 - os.environ["WANDB_API_KEY"] = API_KEY
 - Similarly for the improved model as well.
 ### Load model
