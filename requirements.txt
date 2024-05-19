@@ -1,0 +1,11 @@
+torch
+transformers
+tabulate
+numpy
+pandas
+scikit-learn
+wandb
+nltk
+pyyaml
+matplotlib
+torchtext
