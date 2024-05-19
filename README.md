@@ -22,10 +22,7 @@ Set up the configuration file first. You need to put your API key in the file if
 - API_KEY = str(config['models_config']['API_KEY'])
 - os.environ["WANDB_API_KEY"] = API_KEY
 - Similarly for the improved model as well.
-### Load model
-Load the pretrained modle from the file 
-- LOAD_MODEL_FILE= r'saved_models/model_full_data_80_tensor(0.9161).pth.tar' : put your path directory here.
-### Running or Testing
+  # Running or testing
 For further development or testing you need to run it locally.You need to put your path directory in the file "train_1d_cnn"for 1D CNN model 
 and in the file " train_bert" for bert.
 ### Train models
